@@ -1,8 +1,8 @@
-package labtwo.pokemons;
+package com.mitrian.labtwo.pokemons;
 
-import labtwo.moves.AgilityMove;
-import labtwo.moves.ScaryFaceMove;
-import labtwo.moves.SteelWingMove;
+import com.mitrian.labtwo.moves.AgilityMove;
+import com.mitrian.labtwo.moves.ScaryFaceMove;
+import com.mitrian.labtwo.moves.SteelWingMove;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

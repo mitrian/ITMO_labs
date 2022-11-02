@@ -1,7 +1,7 @@
-package labtwo.pokemons;
+package com.mitrian.labtwo.pokemons;
 
-import labtwo.moves.DazzlingGleamMove;
-import labtwo.moves.ShadowBallMove;
+import com.mitrian.labtwo.moves.DazzlingGleamMove;
+import com.mitrian.labtwo.moves.ShadowBallMove;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

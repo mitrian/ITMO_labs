@@ -1,6 +1,6 @@
-package labtwo.pokemons;
+package com.mitrian.labtwo.pokemons;
 
-import labtwo.moves.PoisonStingMove;
+import com.mitrian.labtwo.moves.PoisonStingMove;
 import ru.ifmo.se.pokemon.Type;
 
 public class RoseradePokemon extends RoseliaPokemon {

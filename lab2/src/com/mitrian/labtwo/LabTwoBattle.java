@@ -1,6 +1,6 @@
-package labtwo;
+package com.mitrian.labtwo;
 
-import labtwo.pokemons.*;
+import com.mitrian.labtwo.pokemons.*;
 import ru.ifmo.se.pokemon.Battle;
 
 public class LabTwoBattle {

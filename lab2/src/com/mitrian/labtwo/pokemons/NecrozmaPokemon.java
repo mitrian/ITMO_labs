@@ -1,6 +1,9 @@
-package labtwo.pokemons;
+package com.mitrian.labtwo.pokemons;
 
-import labtwo.moves.*;
+import com.mitrian.labtwo.moves.CrunchMove;
+import com.mitrian.labtwo.moves.FacadeMove;
+import com.mitrian.labtwo.moves.FireBlastMove;
+import com.mitrian.labtwo.moves.IronTailMove;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

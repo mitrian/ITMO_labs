@@ -1,7 +1,7 @@
-package labtwo.pokemons;
+package com.mitrian.labtwo.pokemons;
 
 
-import labtwo.moves.GigaDrainMove;
+import com.mitrian.labtwo.moves.GigaDrainMove;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

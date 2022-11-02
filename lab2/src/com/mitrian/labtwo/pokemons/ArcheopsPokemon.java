@@ -1,7 +1,7 @@
-package labtwo.pokemons;
+package com.mitrian.labtwo.pokemons;
 
 
-import labtwo.moves.FocusBlastMove;
+import com.mitrian.labtwo.moves.FocusBlastMove;
 import ru.ifmo.se.pokemon.Type;
 
 public class ArcheopsPokemon extends ArchenPokemon {
