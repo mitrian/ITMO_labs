@@ -1,2 +1,2 @@
-Main-Class: labtwo.LabTwoBattle
 Class-Path: Pokemons.jar
+Main-Class: labtwo.LabTwoBattle
