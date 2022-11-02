@@ -1,2 +1,2 @@
-Class-Path: Pokemons.jar
+Class-Path: Pokemon.jar
 Main-Class: com.mitrian.labtwo.LabTwoBattle
