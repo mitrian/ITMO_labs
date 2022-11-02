@@ -1,10 +1,7 @@
 package labtwo.pokemons;
 
-import labtwo.moves.AgilityMove;
+
 import labtwo.moves.FocusBlastMove;
-import labtwo.moves.ScaryFaceMove;
-import labtwo.moves.SteelWingMove;
-import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
 public class ArcheopsPokemon extends ArchenPokemon {

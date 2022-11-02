@@ -1,10 +1,6 @@
 package labtwo.pokemons;
 
-import labtwo.moves.DazzlingGleamMove;
-import labtwo.moves.GigaDrainMove;
 import labtwo.moves.PoisonStingMove;
-import labtwo.moves.ShadowBallMove;
-import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
 public class RoseradePokemon extends RoseliaPokemon {
