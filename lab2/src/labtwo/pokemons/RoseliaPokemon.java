@@ -12,8 +12,6 @@ public class RoseliaPokemon extends Pokemon {
         super(name,level);
         setType(Type.POISON, Type.GHOST);
         setStats(50,60,45,100,80,65);
-        addMove(new ShadowBallMove());
-        addMove(new DazzlingGleamMove());
         addMove(new GigaDrainMove());
     }
 }
