@@ -17,6 +17,12 @@ public class Girl extends AbstractEntity
 		return "";
 	}
 
+
+	public String speak1()
+	{
+		return "rrr";
+	}
+
 	@Override
 	public String toString()
 	{

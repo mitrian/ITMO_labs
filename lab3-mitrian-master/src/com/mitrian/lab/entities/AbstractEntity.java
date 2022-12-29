@@ -18,20 +18,20 @@ public abstract class AbstractEntity
 	public AbstractEntity(String name, String location)
 	{
 		this.type = EntityType.CAT;
-		this.name = new NameProperty(name);
-		this.location = new LocationProperty(location);
+		this.name = new Property(name);
+		this.location = new Property(location);
 		moods = null;
 	}
 
 	public AbstractEntity(String name, String location, Mood... mood)
 	{
 		this.type = EntityType.GIRL;
-		this.name = new NameProperty(name);
-		this.location = new LocationProperty(location);
+		this.name = new Property(name);
+		this.location = new Property(location);
 
 		this.moods = new LinkedList<>();
 		if (mood.length != 0)
-			this.moods.addAll(Arrays.stream(mood).map(MoodProperty::new).toList());
+			this.moods.addAll(Arrays.stream(mood).map(Property::new).toList());
 	}
 
 	public void setName(String name)
@@ -57,7 +57,7 @@ public abstract class AbstractEntity
 	public void addMood(Mood... mood)
 	{
 		if (moods != null && type == EntityType.GIRL && mood.length != 0)
-			moods.addAll(Arrays.stream(mood).map(MoodProperty::new).toList());
+			moods.addAll(Arrays.stream(mood).map(Property::new).toList());
 	}
 
 	public String getMood()
